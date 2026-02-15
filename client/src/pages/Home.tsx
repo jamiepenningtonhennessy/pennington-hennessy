@@ -229,10 +229,10 @@ export default function Home() {
                 <div className="text-center">
                   <div className="text-6xl md:text-7xl font-bold text-gold/20 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>"</div>
                   <p className="text-ivory/90 text-lg italic leading-relaxed" style={{ fontFamily: "'Playfair Display', serif" }}>
-                    This is excellent Jamie and I think it would work very well here.
+                    This is excellent Jamie and I think it will work very well here.
                   </p>
                   <p className="text-ivory/50 text-sm mt-4" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                    — Performance & Development Manager, Potter Clarkson
+                    — Performance & Development Manager
                   </p>
                 </div>
               </div>
@@ -274,11 +274,20 @@ export default function Home() {
                 AI-Powered Learning<br />for the Legal Profession
               </h2>
               <p className="text-charcoal/80 leading-relaxed mb-6" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                We have pioneered the use of AI-driven role-play scenarios for professional development. These bespoke simulations allow lawyers and professionals to practise difficult conversations, client interactions and business development skills in a realistic, psychologically safe environment.
+                We have pioneered the use of AI-driven role-play scenarios for professional development. These bespoke simulations allow lawyers and professionals to practise difficult conversations, client interactions and business development skills in a realistic, psychologically safe environment — available on demand, infinitely scalable, and consistently challenging.
               </p>
-              <p className="text-charcoal/80 leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                Unlike traditional role-plays, our AI scenarios are infinitely scalable, consistently challenging, and available on demand. They enable professionals to demonstrate competency through practice, not just acquire knowledge through instruction.
+              <p className="text-charcoal/80 leading-relaxed mb-6" style={{ fontFamily: "'Source Serif 4', serif" }}>
+                Unlike traditional role-plays, AI scenarios enable professionals to demonstrate competency through practice, not just acquire knowledge through instruction. Each simulation is tailored to the specific challenges and culture of your firm.
               </p>
+              <a 
+                href="https://www.penningtonhennessy-ai.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold transition-colors duration-300 mb-8"
+                style={{ fontFamily: "'Source Serif 4', serif" }}
+              >
+                Explore our AI scenarios <span aria-hidden="true">→</span>
+              </a>
               <div className="grid grid-cols-3 gap-6 pt-4 border-t border-border">
                 <div>
                   <span className="block text-2xl font-semibold text-navy" style={{ fontFamily: "'JetBrains Mono', monospace" }}>24/7</span>
@@ -369,35 +378,26 @@ export default function Home() {
                 Jamie Pennington
               </h2>
               <p className="text-sm uppercase tracking-[0.15em] text-charcoal/60 mb-8" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
-                Director &middot; Visiting Professor, University of Law
+                Director &middot; Former Visiting Professor, University of Law
               </p>
 
               <div className="space-y-6 text-charcoal/80 leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
                 <p className="text-lg">
                   <span className="text-4xl font-bold text-navy float-left mr-3 leading-none" style={{ fontFamily: "'Playfair Display', serif" }}>J</span>
-                  amie Pennington has spent over thirty years working with lawyers and other professionals, helping them develop the skills, confidence and commercial awareness they need to thrive. His career began in sales and marketing before moving into professional development, giving him a rare combination of commercial acumen and coaching expertise.
+                  amie Pennington has spent over thirty years working with lawyers and other professionals, helping them develop the skills, confidence and commercial awareness they need to thrive. His first career was in the military, where he worked in the Geographic Intelligence Systems side of Military Intelligence. Following his MBA he worked in both sales and marketing before moving into professional development, giving him a rare combination of commercial acumen and coaching expertise.
                 </p>
                 <p>
-                  As Director of Pennington Hennessy and a Visiting Professor at the University of Law, Jamie brings both practical experience and academic rigour to his work. He has designed and delivered programmes for firms ranging from international practices such as Reed Smith and Latham & Watkins to specialist firms like Stewarts and Potter Clarkson.
+                  As Director of Pennington Hennessy and a Visiting Professor at the University of Law, Jamie brings both practical experience and academic rigour to his work. He has designed and delivered programmes for over half the UK Top 100 firms: firms ranging from international practices to regional.
                 </p>
                 <p>
-                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios that allow professionals to practise and refine their skills in realistic, bespoke simulations. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
+                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios that allow professionals to practise and refine their skills in realistic, bespoke simulations. More details can be found at penningtonhennessy-AI.com. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
                 </p>
                 <p>
                   His approach is grounded in a belief that lasting change comes not from instruction alone, but from understanding the deeper systems — cultural, behavioural and motivational — that shape how professionals work and grow.
                 </p>
               </div>
 
-              <div className="mt-10 pt-8 border-t border-border">
-                <h3 className="text-sm uppercase tracking-[0.15em] text-navy font-semibold mb-4" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
-                  Selected Clients
-                </h3>
-                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-charcoal/60" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                  {["Reed Smith", "Latham & Watkins", "Stewarts", "Potter Clarkson", "Keystone Law", "Roythornes", "Kingsley Napley", "Ankura", "Edge Health", "Schroders"].map((client) => (
-                    <span key={client}>{client}</span>
-                  ))}
-                </div>
-              </div>
+
             </FadeIn>
           </div>
         </div>
@@ -410,11 +410,11 @@ export default function Home() {
             <div className="max-w-3xl mx-auto text-center">
               <div className="text-6xl text-gold/30 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>"</div>
               <p className="text-xl md:text-2xl text-ivory/90 italic leading-relaxed mb-8" style={{ fontFamily: "'Playfair Display', serif" }}>
-                I think it's a great idea. I'd be interested in talking about developing it and how we could "own it" — but keep you working on the project.
+                I think it's great. I'd be interested in talking about developing it and how we could "own it" — but keep you working on the project.
               </p>
               <div className="w-12 h-px bg-gold mx-auto mb-6" />
               <p className="text-ivory/60 text-sm" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                Gillian Nash-Kennell, HR Director — Roythornes LLP
+                HR Director — Law Firm
               </p>
             </div>
           </FadeIn>
