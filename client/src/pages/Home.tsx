@@ -208,7 +208,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-bold text-ivory mb-4">Training</h3>
                 <div className="w-12 h-px bg-gold mb-6" />
                 <p className="text-ivory/75 leading-relaxed mb-6" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                  Highly practical training programmes tailored to the specific needs of law firms and professional services. Our programmes integrate AI-powered role-play scenarios — in partnership with Qinect — to provide realistic, scalable skills practice in a psychologically safe environment.
+                  Highly practical training programmes tailored to the specific needs of law firms and professional services. Our programmes integrate AI-powered role-play scenarios to provide realistic, scalable skills practice in a psychologically safe environment.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {["Delegation & Supervision", "Business Development Skills", "Commercial Awareness", "AI-Enhanced Scenarios"].map((item) => (
@@ -274,7 +274,7 @@ export default function Home() {
                 AI-Powered Learning<br />for the Legal Profession
               </h2>
               <p className="text-charcoal/80 leading-relaxed mb-6" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                In partnership with Qinect, we have pioneered the use of AI-driven role-play scenarios for professional development. These bespoke simulations allow lawyers and professionals to practise difficult conversations, client interactions and business development skills in a realistic, psychologically safe environment.
+                We have pioneered the use of AI-driven role-play scenarios for professional development. These bespoke simulations allow lawyers and professionals to practise difficult conversations, client interactions and business development skills in a realistic, psychologically safe environment.
               </p>
               <p className="text-charcoal/80 leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
                 Unlike traditional role-plays, our AI scenarios are infinitely scalable, consistently challenging, and available on demand. They enable professionals to demonstrate competency through practice, not just acquire knowledge through instruction.
@@ -381,7 +381,7 @@ export default function Home() {
                   As Director of Pennington Hennessy and a Visiting Professor at the University of Law, Jamie brings both practical experience and academic rigour to his work. He has designed and delivered programmes for firms ranging from international practices such as Reed Smith and Latham & Watkins to specialist firms like Stewarts and Potter Clarkson.
                 </p>
                 <p>
-                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios in partnership with Qinect that allow professionals to practise and refine their skills in realistic, bespoke simulations. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
+                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios that allow professionals to practise and refine their skills in realistic, bespoke simulations. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
                 </p>
                 <p>
                   His approach is grounded in a belief that lasting change comes not from instruction alone, but from understanding the deeper systems — cultural, behavioural and motivational — that shape how professionals work and grow.
