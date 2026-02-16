@@ -95,12 +95,7 @@ export default function Footer() {
           >
             &copy; {new Date().getFullYear()} Pennington Hennessy Ltd. All rights reserved.
           </p>
-          <p
-            className="text-ivory/30 text-xs"
-            style={{ fontFamily: "'Source Serif 4', serif" }}
-          >
-            Visiting Professor, University of Law
-          </p>
+
         </div>
       </div>
     </footer>
