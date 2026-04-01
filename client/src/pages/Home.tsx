@@ -280,13 +280,13 @@ export default function Home() {
                 Unlike traditional role-plays, AI scenarios enable professionals to demonstrate competency through practice, not just acquire knowledge through instruction. Each simulation is tailored to the specific challenges and culture of your firm.
               </p>
               <a 
-                href="https://www.penningtonhennessy-ai.com" 
+                href="https://legalscenar-crucial.manus.space" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold transition-colors duration-300 mb-8"
                 style={{ fontFamily: "'Source Serif 4', serif" }}
               >
-                Explore our AI scenarios <span aria-hidden="true">→</span>
+                Practice crucial conversations <span aria-hidden="true">→</span>
               </a>
               <div className="grid grid-cols-3 gap-6 pt-4 border-t border-border">
                 <div>
@@ -390,7 +390,7 @@ export default function Home() {
                   As Director of Pennington Hennessy and a Visiting Professor at the University of Law, Jamie brings both practical experience and academic rigour to his work. He has designed and delivered programmes for over half the UK Top 100 firms: firms ranging from international practices to regional.
                 </p>
                 <p>
-                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios that allow professionals to practise and refine their skills in realistic, bespoke simulations. More details can be found at penningtonhennessy-AI.com. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
+                  Jamie is a pioneer in the use of AI for professional development, having developed a suite of AI-powered role-play scenarios that allow professionals to practise and refine their skills in realistic, bespoke simulations. These scenarios can be accessed at <a href="https://legalscenar-crucial.manus.space" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">crucial.manus.space</a>. He describes himself as an "AI scenario evangelist" — continually exploring what's possible as the technology advances, and then applying it with his clients.
                 </p>
                 <p>
                   His approach is grounded in a belief that lasting change comes not from instruction alone, but from understanding the deeper systems — cultural, behavioural and motivational — that shape how professionals work and grow.
